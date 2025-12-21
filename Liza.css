@@ -17,7 +17,6 @@ body{
      background-attachment: fixed; 
      background-position: center; 
 
-     
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -27,7 +26,6 @@ body{
      justify-content: center;
      font-family: "Times New Roman", serif;
      font-size: 20px;
-     
 }
 p{
      display: grid;
@@ -37,7 +35,6 @@ p{
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
-    
 }
 b{
      font-size: 70px;
@@ -46,7 +43,6 @@ b{
 }
 f{
     text-align: center; 
-    
 }
 photo{
     
@@ -57,6 +53,5 @@ photo{
      height: 400px;
      object-fit: cover;
      border-radius: 15px 15px;
-
 }
 
