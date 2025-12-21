@@ -21,7 +21,7 @@ body{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     height: 100vh; 
+
 
      justify-content: center;
      font-family: "Times New Roman", serif;
@@ -53,5 +53,15 @@ photo{
      height: 400px;
      object-fit: cover;
      border-radius: 15px 15px;
+}
+y{
+     display: flex;
+     margin-top: 1000000px;
+     text-align: center;
+
+     
+     justify-content: left;
+     font-family: "Times New Roman", serif;
+     font-size: 20px;
 }
 
