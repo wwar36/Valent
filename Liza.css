@@ -1,12 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 head{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    box-sizing: border-box;
 }
 body{
      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
@@ -40,28 +35,34 @@ body{
 }
 p{
      display: grid;
-     place-items: center;
-     width: 265px;
-     height: 200px;
+     text-align: center;
+     width: 400px;
+     height: 700px;
      color: black;
      border-style:dashed;
-     border-radius: 15px 40%;
+     border-radius: 15px 15px;
+    
 }
 b{
-     font-size: 50px;
+     font-size: 70px;
      font-family: "Times New Roman", serif;
      font-style: oblique; 
 }
-.full-screen-element {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+f{
+    text-align: center; 
     
-    /* Учитываем безопасные зоны */
-    top: env(safe-area-inset-top);
-    bottom: env(safe-area-inset-bottom);
-    left: env(safe-area-inset-left);
-    right: env(safe-area-inset-right);
 }
+photo{
+    
+     background-image: url(./66467a4a39e14ea7b68db5cf8ea9a203.gif);
+     font-family: "Times New Roman", serif;
+     text-align: center;
+     width: 400px;
+     height: 400px;
+     object-fit: cover;
+     border-radius: 15px 15px;
+     
+    
+ 
+}
+
