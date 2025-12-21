@@ -17,27 +17,25 @@ body{
      background-attachment: fixed; 
      background-position: center; 
 
-     -webkit-text-size-adjust: 100%;
-     text-size-adjust: 100%;
-     box-sizing: border-box;
      
      display: grid;
      width: 0px;
      flex-direction: row;
-     justify-content: center;
      color: black;
      position: absolute; 
      top: 10%;
-     left: 50%;
+     left: 49%;
      font-size: 20px;
      font-family: "Times New Roman", serif;
+     justify-content: center;
+     height: 10vh;
      
 }
 p{
      display: grid;
      text-align: center;
      width: 400px;
-     height: 700px;
+     height: 730px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
